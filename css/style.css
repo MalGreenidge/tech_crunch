@@ -14,6 +14,11 @@
     color: rgb(155, 154, 154);
 }
 
+body {
+    display: flex;
+}
+
+
 /* Nav Bar  */
 .logo {
     height: 40px;
@@ -21,6 +26,14 @@
 }
 
 .extra-crunch {
+    font-size: 10px;
+}
+
+.joinExtra {
+    font-size: 0.9em;
+}
+
+.extra-crunch, .joinExtra {
     color: rgb(245, 165, 55);
 }
 
@@ -28,13 +41,11 @@
     font-size: 20px;
 }
 
-.nav-link, .login {
+.nav-link, .login, .joinExtra{
     text-decoration: none;
 }
 
-.nav-link {
-    padding-left: 10px;
-}
+
 
 
 .nav-list {
@@ -49,23 +60,14 @@
 
 
 nav {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100%;
-  
+  margin-right: 50px;
     
 }
 
 /* extraCrunch Section */
 #extraCrunch {
-    max-width: 50%;
-    position: relative;
-    left: 250px;
+    max-width: 800px;
+    
     
 }
 
@@ -95,9 +97,20 @@ nav {
 /* News Section */
 
 #news {
-    position: fixed;
-    width: 500px;
-    right: 0;
-    top: 0;
+    max-width: 500px;
     
+}
+
+/* .sideNews {
+    
+} */
+
+/* The Latest Section */
+/* #theLatest {
+   
+} */
+
+.wonderWoman {
+    width: 400px;
+    height: 200px;
 }
